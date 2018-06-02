@@ -1,0 +1,61 @@
+int x;
+x=1;
+
+if(x==1)
+  {
+    print("Zgadza sie");
+  }
+
+else
+  {
+  if(x<1)
+    {
+    print("Zmienna za mala");
+    }
+
+  else
+    {
+      print("Zmienna za duza");
+    }
+  }
+
+x=x-1;
+
+if(x==1)
+  {
+    print("Zgadza sie");
+  }
+
+else
+  {
+    if(x<1)
+    {
+      print("Zmienna za mala");
+    }
+
+    else
+      {
+        print("Zmienna za duza");
+      }
+  }
+
+
+x=2;
+
+if(x==1)
+{
+  print("Zgadza sie");
+}
+
+else
+  {
+  if(x<1)
+    {
+      print("Zmienna za mala");
+    }
+
+  else
+    {
+      print("Zmienna za duza");
+    }
+  }

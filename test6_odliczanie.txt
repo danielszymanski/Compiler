@@ -1,0 +1,19 @@
+print("Podaj ilosc sekund:");
+
+int ile;
+
+read(ile);
+int i;
+
+for(i=0;i=i+1;i<=ile*70000)
+{
+
+  if(i==70000)
+  {
+    print(ile);
+    print("\n");
+    i=0;
+    ile=ile-1;
+  }
+}
+print("stop");

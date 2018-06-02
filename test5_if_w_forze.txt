@@ -1,0 +1,30 @@
+float a;
+a=0.0;
+float b[20];
+
+int i;
+float licz;
+licz=0;
+
+float p;
+
+for(i=0;i=i+1;i<10)
+{
+  if(licz<4)
+  {
+    b[i]=a+i;
+    p=b[i];
+
+    print(p);
+    print("\n");
+
+    licz = licz+i;
+  }
+
+  else
+  {
+      print(licz);
+      licz=licz-1;
+      print("\n");
+  }
+}

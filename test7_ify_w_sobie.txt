@@ -1,0 +1,35 @@
+int a;
+int b;
+int c;
+int d;
+
+a=10;
+b=20;
+c=30;
+d=40;
+
+if(a>0)
+{
+  print("Zerowy warunek");
+  print("\n");
+  if(b>10)
+  {
+    print("Pierwszy warunek");
+      print("\n");
+    if(c>20)
+    {
+      print("Drugi warunek");
+        print("\n");
+      if(d>50)
+      {
+        print("Trzeci warunek");
+          print("\n");
+      }
+      else
+      {
+        print("Tutaj powinnismy sie znalezc");
+          print("\n");
+      }
+    }
+  }
+}

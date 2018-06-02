@@ -1,0 +1,16 @@
+int tabla [10];
+float tabla2 [2];
+
+int x;
+tabla[3]=11;
+x=tabla[3];
+print(x);
+print("\n");
+
+float y;
+y=2.2;
+tabla2[x]=y;
+
+float z;
+z=tabla2[x];
+print(z);

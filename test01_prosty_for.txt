@@ -1,0 +1,13 @@
+int x;
+
+print("Podaj ilosc iteracji:");
+read(x);
+
+int y;
+
+for(y=0;y=y+1;y<x)
+{
+print("linia");
+print(y);
+print("\n");
+}

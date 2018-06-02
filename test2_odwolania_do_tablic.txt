@@ -1,0 +1,22 @@
+int a;
+
+a = 1;
+int tab[11];
+
+
+if(a>0)
+{
+	int b;
+	for(b=0;b=b+1;b<10)
+	{
+		tab[b]=b;
+	}
+}
+
+int c;
+c = tab[0];
+int d;
+d = tab[5];
+
+print(c);
+print(d);
